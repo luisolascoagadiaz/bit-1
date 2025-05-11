@@ -6,7 +6,7 @@ Hola, esta es mi aplicación web donde podrás evidenciar todos los avances y co
 Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoagadiaz)
 
 ## Tecnologías usadas
-![HTML5](/img/html64x64.png)  ![CSS 3](/img/css64x64.png)  ![JavaScript](/img/js64X64.png)  [BOOTSTRAP 5](/img/bootstrap64x64.png)
+![HTML5](/img/html64x64.png)  ![CSS 3](/img/css64x64.png)  ![JavaScript](/img/js64X64.png)  ![BOOTSTRAP 5](/img/bootstrap64x64.png)
 
 ## Características
 * Inicio de Sesión.
