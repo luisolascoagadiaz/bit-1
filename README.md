@@ -6,8 +6,7 @@ Hola, esta es mi aplicación web donde podrás evidenciar todos los avances y co
 Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoagadiaz)
 
 ## Construido con
-* :html:
-* ![HTML5](/img/html.png)
+* ![HTML5](/img/html64x64.png)
 
 ## Autor:
 LUIS OLASCOAGA DIAZ
