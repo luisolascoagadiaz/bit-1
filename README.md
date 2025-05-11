@@ -5,6 +5,9 @@ Hola, esta es mi aplicación web donde podrás evidenciar todos los avances y co
 ## 🚀 Demo
 Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoagadiaz)
 
+## Capturas de Pantalla
+![Wireframe](/img/wireframe.png)
+
 ## Tecnologías usadas
 ![HTML5](/img/html64x64.png)
 ![CSS 3](/img/css64x64.png)
@@ -14,6 +17,7 @@ Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoaga
 ## Características
 * Inicio de Sesión.
 * Menú de Módulos.
+  - Tareas.
   - Acerca de.
   - Contacto.
 
