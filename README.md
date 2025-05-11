@@ -5,8 +5,10 @@ Hola, esta es mi aplicación web donde podrás evidenciar todos los avances y co
 ## 🚀 Demo
 Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoagadiaz)
 
-## Temas
-
+## Construido con
+* [![Next][Next.js]][Next-url]
+* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
+* [![JQuery][JQuery.com]][JQuery-url]
 
 ## Autor:
 LUIS OLASCOAGA DIAZ
