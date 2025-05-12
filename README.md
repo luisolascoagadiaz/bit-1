@@ -3,7 +3,7 @@
 Hola, esta es mi aplicación web donde podrás evidenciar todos los avances y conocimientos adquiridos en el BOOTCAMP(Desarrollo Web Full Stack).
 
 ## 🚀 Demo
-Aquí puedes ver la demo de la WebApp: [IR](https://www.github.com/luisolascoagadiaz)
+Aquí puedes ver la demo de la WebApp: [IR](https://luisolascoagadiaz.github.io/bit-1)
 
 ## Capturas de Pantalla
 ![Wireframe](/img/wireframe.png)
