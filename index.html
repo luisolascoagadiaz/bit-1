@@ -12,22 +12,24 @@
   </head>
   <body class="d-flex align-items-center py-4 bg-body-tertiary">
     <main class="form-signin w-100 m-auto">
-      <form>
+      <form id="form">
         <img class="mb-4" src="./img/logo.png" alt="Logo" width="100px">
         <h1 class="h3 mb-3 fw-normal">Bienvenido(a)</h1>
         <div class="form-floating">
-          <input type="email" class="form-control" id="floatingInput" placeholder="correo@example.com"/>
-          <label for="floatingInput">Correo Electrónico</label>
+          <input type="email" class="form-control" id="correo" placeholder="correo@example.com" value="a@a.com"/>
+          <label id="tagcorreo" for="correo">Correo Electrónico</label>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="floatingPassword" placeholder="Contraseña"/>
-          <label for="floatingPassword">Contraseña</label>
+          <input type="password" class="form-control" id="clave" placeholder="Contraseña" value=""/>
+          <label id="tagclave" for="clave">Contraseña</label>
         </div>
-        <button class="btn btn-primary w-100 py-2" type="submit">Ingresar</button>
+        <div id="msj" class="alert text-center" role="alert">* Todos los campos son obligatorios.</div>
+        <button id="btn" class="btn btn-primary w-100 py-2" type="submit">Ingresar</button>
         <p class="mt-5 mb-3 text-body-secondary">© Luis Olascoaga Diaz | 2025</p>
       </form>
     </main>
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
   </body>
 </html>
