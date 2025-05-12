@@ -1,5 +1,5 @@
 'use strict';
-const $form = document.getElementById('form');
+const $form = document.getElementById('frminicio');
 
 $form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -8,13 +8,13 @@ $form.addEventListener('submit', (event) => {
   
   if($form.correo.value==''){
     $form.correo.classList.add('is-invalid');
-    document.getElementById('tagcorreo').innerHTML ='Correo Electrónico (Obligatorio).';
+    document.getElementById('tagcorreo').innerHTML =' Correo Electrónico (Obligatorio).';
     return false;
   }
 
   if($form.clave.value==''){
     $form.clave.classList.add('is-invalid');
-    document.getElementById('tagclave').innerHTML ='Contraseña (Obligatorio).';
+    document.getElementById('tagclave').innerHTML =' Contraseña (Obligatorio).';
     return false;
   }
  
@@ -42,3 +42,53 @@ $form.clave.addEventListener('click', (event) => {
     $form.clave.value='';
     $form.clave.classList.remove('is-invalid');
 });
+
+
+// Validación y envio del Formulario de Contacto.
+function enviarmensaje(){
+  const $frmcontacto = document.getElementById('frmcontacto');
+  const nombre = $frmcontacto.nombre.value;
+  const telefono = $frmcontacto.telefono.value;
+  const correo = $frmcontacto.telefono.value;
+  const mensaje = $frmcontacto.telefono.value;
+
+  if($frmcontacto.nombre.value==''){
+    $frmcontacto.nombre.classList.add('is-invalid');
+    document.getElementById('tagnombre').innerHTML =' Nombre y Apellido (Obligatorio).';
+    return false;
+  }
+  $frmcontacto.nombre.classList.remove('is-invalid');
+
+
+  if($frmcontacto.telefono.value==''){
+    $frmcontacto.telefono.classList.add('is-invalid');
+    document.getElementById('tagtelefono').innerHTML =' Teléfono (Obligatorio).';
+    return false;
+  }
+  $frmcontacto.telefono.classList.remove('is-invalid');
+
+
+  if($frmcontacto.correo.value==''){
+    $frmcontacto.correo.classList.add('is-invalid');
+    document.getElementById('tagcorreo').innerHTML =' Correo Electrónico (Obligatorio).';
+    return false;
+  }
+  $frmcontacto.correo.classList.remove('is-invalid');
+
+
+  if($frmcontacto.mensaje.value==''){
+    $frmcontacto.mensaje.classList.add('is-invalid');
+    document.getElementById('tagmensaje').innerHTML =' Mensaje (Obligatorio).';
+    return false;
+  }
+  $frmcontacto.mensaje.classList.remove('is-invalid');
+
+  document.getElementById('msjcontacto').innerHTML =`<div class="alert alert-success" role="alert">${nombre}, Su mensaje fue enviado, pronto recibirá
+  respuesta al correo ${correo} o al whatsapp ${telefono}.</div>`;
+
+  $frmcontacto.nombre.value='';
+  $frmcontacto.telefono.value='';
+  $frmcontacto.correo.value='';
+  $frmcontacto.mensaje.value='';
+
+}

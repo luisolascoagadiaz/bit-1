@@ -9,20 +9,21 @@
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css"/>
     <link rel="stylesheet" href="./css/sign-in.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"/>
     <link rel="icon" href="./favicon.ico" />    
   </head>
   <body class="d-flex align-items-center py-4 bg-body-tertiary">
     <main class="form-signin w-100 m-auto">
-      <form id="form">
+      <form id="frminicio">
         <img class="mb-4" src="./img/logo.png" alt="Logo" width="100px">
         <h1 class="h3 mb-3 fw-normal">Bienvenido(a)</h1>
-        <div class="form-floating">
-          <input type="email" class="form-control" id="correo" placeholder="correo@example.com" value="a@a.com"/>
-          <label id="tagcorreo" for="correo">Correo Electrónico</label>
+        <div class="form-floating py-2 px-1">
+          <input type="email" class="form-control" id="correo" placeholder="correo@example.com" value=""/>
+          <label id="tagcorreo" for="correo" class="bi bi-envelope"> Correo Electrónico</label>
         </div>
-        <div class="form-floating">
+        <div class="form-floating py-2 px-1">
           <input type="password" class="form-control" id="clave" placeholder="Contraseña" value=""/>
-          <label id="tagclave" for="clave">Contraseña</label>
+          <label id="tagclave" for="clave" class="bi bi-key"> Contraseña</label>
         </div>
         <div id="msj" class="alert text-center" role="alert">* Todos los campos son obligatorios.</div>
         <button id="btn" class="btn btn-primary w-100 py-2" type="submit">Ingresar</button>
